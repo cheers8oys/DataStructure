@@ -1,4 +1,4 @@
-package 기초수학;
+package 기초수학.집합;
 
 
 import java.util.ArrayList;
@@ -14,7 +14,7 @@ class MySet {
     MySet(int[] arr) {
         list = new ArrayList<Integer>();
         for(int item : arr) {
-            this.list.add(item);
+            this.add(item);
         }
     }
 
